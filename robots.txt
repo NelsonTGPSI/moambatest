@@ -1,0 +1,11 @@
+# robots.txt for Moamba d'Angola
+# Allow all crawlers but point to sitemap (replace domain below)
+User-agent: *
+Allow: /
+
+# Disallow internal or backup folders/files if present
+Disallow: /inativo/
+Disallow: /contact.html.bak
+
+# Sitemap location for moambadeangola.pt
+Sitemap: https://moambadeangola.pt/sitemap.xml

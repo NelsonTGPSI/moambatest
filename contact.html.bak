@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contactos — Moamba d'Angola</title>
+    <meta name="description" content="Entre em contacto com o restaurante Moamba d'Angola. Visite-nos ou faça sua reserva." />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="navbar container">
+        <div class="brand">
+          <a href="index.html" class="logo">
+            <span class="logo-icon"><img class="logo-img" src="assets/img/logo sem fundo.png" alt="Moamba d'Angola logo"></span>
+            <span class="logo-text">Moamba d’Angola</span>
+          </a>
+        </div>
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Galeria</a></li>
+          <li><a href="contact.html">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero" style="background:linear-gradient(180deg,rgba(116,105,76,0.06),transparent);padding:72px 0">
+        <div class="container">
+          <h1 style="font-family:Playfair Display, serif;color:var(--brown)">Contactos</h1>
+          <p class="section-sub">Entre em contacto connosco</p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container reveal">
+        <h2>Contactos</h2>
+        <div class="contact-grid">
+          <div>
+            <p><strong>Endereço:</strong> Rua Exemplo 123, Luanda, Angola</p>
+            <p><strong>Telefone:</strong> +244 912 345 678</p>
+            <p><strong>Email:</strong> reservas@moambadangola.ao</p>
+            <div class="socials">
+              <a href="#" class="social" data-tooltip="Facebook" aria-label="Facebook">F</a>
+              <a href="#" class="social" data-tooltip="Instagram" aria-label="Instagram">I</a>
+            </div>
+          </div>
+          <div class="map-wrap">
+            <div class="map-frame">
+              <iframe src="https://www.google.com/maps?q=Luanda&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="map-marker" aria-hidden="true"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="copyright">&copy; <span id="year"></span> Moamba d’Angola. Todos os direitos reservados.</div>
+        <div class="footer-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
